@@ -1,0 +1,21 @@
+# ===== 只纳入 LegControl，其余目录一律不入库 =====
+/3dmodel/
+/app/
+/ball/
+/Blender/
+/tools/
+/WitMotion(V2024.8.12.4)/
+/WT_Github/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== Blender 自动备份 =====
+*.blend1
+*.blend2
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+Desktop.ini
